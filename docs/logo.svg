@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="99.999992mm"
+   height="100mm"
+   viewBox="0 0 99.999992 100"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.52"
+     inkscape:cx="46.153846"
+     inkscape:cy="115.38462"
+     inkscape:window-width="1872"
+     inkscape:window-height="1001"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient63">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop63" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.99082571;"
+         offset="1"
+         id="stop64" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient63"
+       id="linearGradient64"
+       x1="68.855568"
+       y1="124.83861"
+       x2="151.3595"
+       y2="124.83861"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(5.088141,-59.700855)" />
+    <linearGradient
+       xlink:href="#linearGradient65"
+       id="linearGradient66"
+       x1="66.521011"
+       y1="120.34068"
+       x2="149.02495"
+       y2="120.34068"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(4.5588358,-57.695385)" />
+    <linearGradient
+       id="linearGradient65">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop65" />
+      <stop
+         style="stop-color:#fffdff;stop-opacity:0.49847096;"
+         offset="1"
+         id="stop66" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient65"
+       id="linearGradient66-1"
+       x1="66.521011"
+       y1="120.34068"
+       x2="149.02495"
+       y2="120.34068"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(3.1922503,-53.629022)" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-63.088143,-15.299146)"
+     style="fill:#4051b4;fill-opacity:1">
+    <rect
+       style="fill:#4051b4;fill-opacity:1;stroke:none;stroke-width:1.96562;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:30.2363;stroke-opacity:1"
+       id="rect4"
+       width="100"
+       height="100"
+       x="63.088142"
+       y="15.299146"
+       ry="0" />
+    <ellipse
+       style="mix-blend-mode:normal;fill:#4051b4;stroke:url(#linearGradient64);stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:30.2363;fill-opacity:1"
+       id="path1-7"
+       cx="115.19568"
+       cy="65.137756"
+       rx="39.492954"
+       ry="39.298409" />
+    <ellipse
+       style="mix-blend-mode:normal;fill:#4051b4;stroke:url(#linearGradient66);stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:30.2363;stroke-opacity:1;fill-opacity:1"
+       id="path1-7-9"
+       cx="112.33183"
+       cy="62.645298"
+       rx="39.492954"
+       ry="39.298409" />
+    <ellipse
+       style="mix-blend-mode:normal;fill:#4051b4;stroke:url(#linearGradient66-1);stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:30.2363;stroke-opacity:1;fill-opacity:1"
+       id="path1-7-9-8"
+       cx="110.96523"
+       cy="66.71167"
+       rx="39.492954"
+       ry="39.298409" />
+  </g>
+</svg>

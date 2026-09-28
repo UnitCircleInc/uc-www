@@ -1,0 +1,7 @@
+site_name: Unit Circle Inc
+site_url: https://unitcircle.ca/mysite
+theme:
+  name: material
+  logo: logo.svg
+  palette:
+    primary: dark blue
