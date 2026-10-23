@@ -1,7 +1,7 @@
 # Github projects
 
 * [uccomm](https://github.com/UnitCircleInc/uccomm) - a light weight embedded library for supporting communication byte serial interfaces like UARTs, USB CDC, TCP, Bluetooth LE, ....  Includes libraries for COBS, CBOR and CRC32c.
-* [uclog](https://github.com/UnitCircleInc/uclog) - a light weight library for logging on embedded systems.  Extremely low use of processor resource (FLASH, RAM, CPU cycles).   Support for capturing reset logs.   Logs can be easily persisted to FLASH file systems or [ucpq] nd/or transported over limited bandwitdth wiresless interfaces for in-field debugging.
+* [uclog](https://github.com/UnitCircleInc/uclog) - a light weight library for logging on embedded systems.  Extremely low use of processor resource (FLASH, RAM, CPU cycles).   Support for capturing reset logs.   Logs can be easily persisted to FLASH file systems or [ucpq](https://github.com/UnitCircleInc/ucpq) and/or transported over limited bandwidth wiresless interfaces for in-field debugging.
 * [ucsbl](https://github.com/UnitCircleInc/ucsbl) - a secure boot loader for embedded systems and associate tooling for code signing, certifcates, verification, ...  Specifically designed for in-field wireless firmware updates.
 * [ucmath](https://github.com/UnitCircleInc/ucmath) - a library for performing vector math, FFTs, MDCTs, ... suitable for MCUs that have HW float32 support.
 * [ucpq](https://github.com/UnitCircleInc/ucpq) - a persistent queue library suitable for use with NOR based FLASH that is robust to power failure and MCU resets, has guaranteed monitoically increasing indexes, and support for efficient and reliable transfer over unreliable connections.  Automatically deletes the oldest records when the FLASH capacity is exceeded.

@@ -1,0 +1,139 @@
+/* 円と点 — Beni deep-red palette for Material for MkDocs */
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;600&display=swap");
+
+:root {
+  --sumi:  #1C1B19;
+  --washi: #F3EEE4;
+  --paper: #FBF9F4;
+  --beni:  #9B1C22;
+  --beni-dark: #6E1117;
+  --night: #141312;
+  --ivory: #EDE6D8;
+  --beni-lifted: #E36A62;   /* red for text on dark: ~5:1 contrast */
+  --beni-dot-dark: #C23A36; /* red for the icon dot on dark */
+}
+
+/* ---------- Light (default) ---------- */
+[data-md-color-scheme="default"] {
+  /* Header & tabs: quiet washi paper, sumi ink */
+  --md-primary-fg-color:        var(--washi);
+  --md-primary-fg-color--light: #F8F4EC;
+  --md-primary-fg-color--dark:  #E6DFD2;
+  --md-primary-bg-color:        var(--sumi);
+  --md-primary-bg-color--light: rgba(28, 27, 25, 0.62);
+
+  /* Accent (hover, focus, active) */
+  --md-accent-fg-color:              var(--beni);
+  --md-accent-fg-color--transparent: rgba(155, 28, 34, 0.08);
+  --md-accent-bg-color:              #FFFFFF;
+  --md-accent-bg-color--light:       rgba(255, 255, 255, 0.7);
+
+  /* Page */
+  --md-default-bg-color:          var(--paper);
+  --md-default-fg-color:          rgba(28, 27, 25, 0.87);
+  --md-default-fg-color--light:   rgba(28, 27, 25, 0.60);
+  --md-default-fg-color--lighter: rgba(28, 27, 25, 0.32);
+  --md-default-fg-color--lightest:rgba(28, 27, 25, 0.10);
+
+  /* Links */
+  --md-typeset-a-color: var(--beni);
+
+  /* Code */
+  --md-code-bg-color: #F1ECE2;
+  --md-code-fg-color: #2B2926;
+
+  /* Footer */
+  --md-footer-bg-color:       var(--sumi);
+  --md-footer-bg-color--dark: #121110;
+  --md-footer-fg-color:       var(--ivory);
+
+  --enso-dot: var(--beni);
+
+  /* Syntax highlighting */
+  --md-code-hl-keyword-color: var(--beni);
+  --md-code-hl-string-color:  #22324A;
+  --md-code-hl-comment-color: rgba(28, 27, 25, 0.50);
+  --md-code-hl-name-color:    var(--md-code-fg-color);
+}
+
+/* ---------- Dark (slate) ---------- */
+[data-md-color-scheme="slate"] {
+  --md-hue: 30;
+
+  --md-primary-fg-color:        #1C1B19;
+  --md-primary-fg-color--light: #262422;
+  --md-primary-fg-color--dark:  #121110;
+  --md-primary-bg-color:        var(--ivory);
+  --md-primary-bg-color--light: rgba(237, 230, 216, 0.62);
+
+  --md-accent-fg-color:              var(--beni-lifted);
+  --md-accent-fg-color--transparent: rgba(227, 106, 98, 0.12);
+  --md-accent-bg-color:              var(--night);
+
+  --md-default-bg-color:          var(--night);
+  --md-default-bg-color--light:   rgba(20, 19, 18, 0.54);
+  --md-default-fg-color:          rgba(237, 230, 216, 0.88);
+  --md-default-fg-color--light:   rgba(237, 230, 216, 0.62);
+  --md-default-fg-color--lighter: rgba(237, 230, 216, 0.32);
+  --md-default-fg-color--lightest:rgba(237, 230, 216, 0.10);
+
+  --md-typeset-a-color: var(--beni-lifted);
+
+  --md-code-bg-color: #1E1C1A;
+  --md-code-fg-color: #E4DDCF;
+
+  --md-footer-bg-color:       #0E0D0C;
+  --md-footer-bg-color--dark: #090908;
+  --md-footer-fg-color:       var(--ivory);
+
+  --enso-dot: var(--beni-dot-dark);
+
+  --md-code-hl-keyword-color: var(--beni-lifted);
+  --md-code-hl-string-color:  #9DB3D1;
+  --md-code-hl-comment-color: rgba(237, 230, 216, 0.45);
+  --md-code-hl-name-color:    var(--md-code-fg-color);
+}
+
+body {
+  font-weight: 500; /* Change to your desired weight, e.g., 300, 400, 600 */
+}
+
+/* ---------- Type ---------- */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-header__topic {
+  font-family: "Shippori Mincho", "Hiragino Mincho ProN", "Yu Mincho", serif;
+  letter-spacing: 0.02em;
+}
+.md-typeset h1 { font-weight: 600; color: var(--md-default-fg-color); }
+.md-typeset h2 { font-weight: 600; }
+
+/* ---------- Quiet details ---------- */
+.md-header { box-shadow: none; border-bottom: 1px solid var(--md-default-fg-color--lightest); }
+.md-tabs   { border-bottom: 1px solid var(--md-default-fg-color--lightest); }
+
+.md-typeset a { text-decoration: none; }
+.md-typeset a:hover { text-decoration: underline; text-underline-offset: 0.2em; }
+[data-md-color-scheme="default"] .md-typeset a:hover { color: var(--beni-dark); }
+
+::selection { background: rgba(155, 28, 34, 0.18); }
+
+/* Header logo: ring takes header ink colour, dot stays beni */
+.md-header__button.md-logo svg .enso-dot,
+.md-nav__button.md-logo svg .enso-dot { fill: var(--enso-dot); }
+.md-header__button.md-logo svg { width: 1.6rem; height: 1.6rem; }
+
+/* Note/info admonitions in beni instead of Material's default blue */
+.md-typeset .admonition.note,
+.md-typeset details.note,
+.md-typeset .admonition.info,
+.md-typeset details.info { border-color: var(--md-accent-fg-color); }
+.md-typeset .note > .admonition-title,
+.md-typeset .note > summary,
+.md-typeset .info > .admonition-title,
+.md-typeset .info > summary { background-color: var(--md-accent-fg-color--transparent); }
+.md-typeset .note > .admonition-title::before,
+.md-typeset .note > summary::before,
+.md-typeset .info > .admonition-title::before,
+.md-typeset .info > summary::before { background-color: var(--md-accent-fg-color); }

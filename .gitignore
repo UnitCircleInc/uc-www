@@ -14,3 +14,4 @@ site/
 
 # misc
 .*.swp
+tmp/
