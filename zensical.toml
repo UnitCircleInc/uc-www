@@ -1,0 +1,38 @@
+[project]
+site_name = "Unit Circle Inc"
+site_url = "https://www.unitcircle.ca/"
+repo_url = "https://github.com/UnitCircleInc/unitcircleinc.github.io"
+extra_css = ["stylesheets/extra.css"]
+
+[project.theme]
+variant = "modern"
+custom_dir = "overrides"            # holds .icons/brand/enso.svg
+favicon = "assets/favicon.svg"
+font = false                        # platform system fonts (see brand README)
+icon.logo = "brand/enso"            # inlined SVG, so it follows header colours
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+primary = "custom"
+accent = "custom"
+toggle.icon = "lucide/circle"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+primary = "custom"
+accent = "custom"
+toggle.icon = "lucide/circle-dot"
+toggle.name = "Switch to light mode"
+
+[project.markdown_extensions]
+admonition = {}
+attr_list = {}
+md_in_html = {}                     # lets Markdown work inside <div class="dashboard">
+toc.permalink = true
+pymdownx.details = {}
+pymdownx.highlight = {}
+pymdownx.inlinehilite = {}
+pymdownx.superfences = {}

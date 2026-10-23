@@ -9,8 +9,9 @@ wheels/
 # Virtual environments
 .venv
 
-# mkdocs
+# zensical
 site/
+.cache/
 
 # misc
 .*.swp
