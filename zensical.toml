@@ -1,7 +1,7 @@
 [project]
 site_name = "Unit Circle Inc"
 site_url = "https://www.unitcircle.ca/"
-repo_url = "https://github.com/UnitCircleInc/unitcircleinc.github.io"
+repo_url = "https://github.com/UnitCircleInc/uc-www"
 extra_css = ["stylesheets/extra.css"]
 
 [project.theme]
