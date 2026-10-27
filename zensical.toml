@@ -1,6 +1,7 @@
 [project]
 site_name = "Unit Circle Inc"
 site_url = "https://www.unitcircle.ca/"
+site_description = "Unit Circle Inc: embedded systems design, from hardware and firmware to wireless, security, apps and backend services."
 repo_url = "https://github.com/UnitCircleInc/uc-www"
 extra_css = ["stylesheets/extra.css"]
 
@@ -10,6 +11,11 @@ custom_dir = "overrides"            # holds .icons/brand/enso.svg
 favicon = "assets/favicon.svg"
 font = false                        # platform system fonts (see brand README)
 icon.logo = "brand/enso"            # inlined SVG, so it follows header colours
+features = [
+  "content.code.copy",
+  "navigation.instant",
+  "navigation.top",
+]
 
 [[project.theme.palette]]
 media = "(prefers-color-scheme: light)"
