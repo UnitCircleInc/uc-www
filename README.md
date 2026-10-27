@@ -15,3 +15,7 @@ Source for [www.unitcircle.ca](https://www.unitcircle.ca), built with
 Push to `main`. The `Deploy site` GitHub Actions workflow builds the site and
 publishes it to GitHub Pages (Settings → Pages → Source: GitHub Actions). The
 custom domain is set in the repository's Pages settings.
+
+The footer shows a SoloVer (single-number) version: the number of commits
+on `main`, written into `extra.version` in `zensical.toml` by the workflow.
+Local builds leave it blank and omit it.

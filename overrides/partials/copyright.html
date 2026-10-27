@@ -1,0 +1,19 @@
+{#- Zensical's copyright partial, plus the SoloVer site version set by CI -#}
+<div class="md-copyright">
+  {% if config.copyright %}
+    <div class="md-copyright__highlight">
+      {{ config.copyright }}
+    </div>
+  {% endif %}
+  {% if config.extra.version %}
+    <div class="md-copyright__version">
+      Version {{ config.extra.version }}
+    </div>
+  {% endif %}
+  {% if not config.extra.generator == false %}
+    Made with
+    <a href="https://zensical.org/" target="_blank" rel="noopener">
+      Zensical
+    </a>
+  {% endif %}
+</div>

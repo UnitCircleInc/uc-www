@@ -42,3 +42,6 @@ pymdownx.details = {}
 pymdownx.highlight = {}
 pymdownx.inlinehilite = {}
 pymdownx.superfences = {}
+
+[project.extra]
+version = ""                        # SoloVer (commit count on main); set by CI

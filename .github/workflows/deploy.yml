@@ -19,8 +19,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0            # full history for the version number
       - uses: astral-sh/setup-uv@v6
       - run: uv sync --frozen
+      - name: Set SoloVer version (commit count)
+        run: sed -i "s/^version = \"\"/version = \"$(git rev-list --count HEAD)\"/" zensical.toml
       - run: uv run zensical build --clean
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
